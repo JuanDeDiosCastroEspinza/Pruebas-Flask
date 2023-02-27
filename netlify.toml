@@ -1,9 +1,9 @@
 [build]
-  command = "python manage.py runserver"
+  command = "python app.py"
   publish = "static"
 
 [build.environment]
   PYTHON_VERSION = "3.8"
 
 [dev]
-  command = "python manage.py runserver"
+  command = "python app.py"
